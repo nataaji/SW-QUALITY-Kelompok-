@@ -2,7 +2,7 @@
 # Anggota Kelompok
 Aji Nata Sobari
 
-Haekal
+Haekal Abdulah Ali Akbar Fajar Ramadhan
 
 Muhamad Aditya Suhendar
 
