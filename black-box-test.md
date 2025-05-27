@@ -1,6 +1,6 @@
 ### 📄 black-box-testing.md
 ```markdown
-# 🧪 Black Box Testing
+# Black Box Testing
 
 Dilakukan oleh: [Trisna Prawijaya]
 
