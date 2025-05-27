@@ -57,3 +57,15 @@ Metode:
 ## Cara Menjalankan
 Buka `index.html` di browser
 
+## Tampilan Aplikasi
+
+### Halaman Register
+![Register Page](assets/photos/screenshot-register.png)
+
+### Halaman Login
+![Login Page](assets/photos/screenshot-login.png)
+
+### Halaman Keranjang (Cart)
+![Cart Page](assets/photos/screenshot-cart.png)
+
+
