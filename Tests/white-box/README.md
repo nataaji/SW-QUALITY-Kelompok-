@@ -49,10 +49,10 @@ Tampilkan pesan error dan arahkan kembali ke login.html.
 
 
 ### Flowchart
-# Registrasi
+•Registrasi
 ![Registrasi](Flowchart/Register.jpg)
 
-# Login
+•Login
 ![Login](Flowchart/Login.jpg)
 
 ### Coverage
