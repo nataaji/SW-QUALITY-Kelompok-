@@ -7,19 +7,23 @@ Menguji logika program, percabangan, dan fungsi secara menyeluruh.
 - Validasi: email valid, password match
 - Decision point: if password !== confirmPassword
 
-### Diagram Alir
-[START]
-  ↓
-[Input Email & Password]
-  ↓
-[Password = Konfirmasi Password?] --No--> [Alert "Password tidak cocok"]
-  ↓ Yes
-[Simpan ke localStorage]
-  ↓
-[Alert "Registrasi Berhasil"]
-  ↓
-[END]
-
+### Diagram Alir (Flowchart)
+# Register
+[Start]
+   ↓
+[Input Email, Password, Konfirmasi Password]
+   ↓
+[Password == Konfirmasi?] ---> Tidak ---> [Tampilkan Error: Password tidak cocok] ---> [End]
+   ↓ Ya
+[Email sudah ada di localStorage?] ---> Ya ---> [Tampilkan Error: Email sudah terdaftar] ---> [End]
+   ↓ Tidak
+[Simpan Email + Password ke localStorage]
+   ↓
+[Tampilkan Pesan Sukses]
+   ↓
+[Redirect ke Login]
+   ↓
+[End]
 
 ### Coverage
 - [x] All condition branches tested
