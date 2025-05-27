@@ -1,7 +1,23 @@
 # White Box Test - Adityyy Store
 
 ## Tujuan
-Menguji logika program, percabangan, dan fungsi secara menyeluruh.
+Cek struktur fungsi register() dan login() di auth.js
+
+Di kedua file (register.html dan login.html), terdapat pemanggilan fungsi:
+
+register() saat submit form register
+
+login() saat submit form login
+
+
+Artinya, fungsi register() dan login() berada di file auth.js (belum Anda unggah).
+Untuk white box testing, Anda perlu menganalisis isi dari dua fungsi ini:
+
+Apakah fungsi melakukan validasi input?
+
+Apakah ada pengondisian dan pengulangan yang signifikan?
+
+Apakah ada error handling?
 
 ### Fungsi `register()` di auth.js
 - Validasi: email valid, password match
