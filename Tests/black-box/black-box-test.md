@@ -2,6 +2,10 @@
 
 Metode: Pengujian tanpa melihat kode sumber (Black Box Testing)
 
+- Input kosong pada form register
+- Email tidak valid pada login
+- Password tidak cocok saat register
+
 | No | Fitur      | Input                  | Ekspektasi                              | Hasil Aktual | Status |
 |----|------------|------------------------|-----------------------------------------|--------------|--------|
 | 1  | Register   | Username/email kosong  | Muncul pesan "Wajib diisi"              | Sesuai       | ✅     |
