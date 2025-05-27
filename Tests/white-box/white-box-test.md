@@ -44,7 +44,6 @@ Fungsi untuk memproses login pengguna.
 
 •Jika cocok:
 Simpan data pengguna yang login ke loginUsers di localStorage.
-
 Tampilkan pesan sukses menggunakan SweetAlert dan arahkan ke index.html.
 
 •Jika tidak cocok:
