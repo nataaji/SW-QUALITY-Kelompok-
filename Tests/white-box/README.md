@@ -38,6 +38,7 @@ Periksa apakah password dan konfirmasi cocok.
 
 ### Fungsi `login()` di auth.js
 Fungsi untuk memproses login pengguna.
+
 • Mengambil daftar user dari localStorage.
 
 • Memeriksa apakah input email dan password cocok dengan salah satu pengguna.
