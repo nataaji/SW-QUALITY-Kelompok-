@@ -5,6 +5,10 @@ Website sederhana untuk pembelian top-up game, dibuat sebagai proyek kelompok ya
 - White Box
 - Grey Box
 
+## 👨‍💻 Developer
+- Frontend Developer & GitHub: [Muhamad Aditya Suhendar]
+- Tester: [Trisna Prawijaya,Aji Nata Sobari,Haekal Abdullah Ali Akbar Fajar Ramadhan]
+
 ## Fitur
 - Register & Login
 - Halaman utama dengan promosi top-up game
@@ -35,10 +39,6 @@ Metode:
 - Gabungkan pengujian UI + logika kode
 - Cek interaksi ID Game & metode pembayaran (cart.html)
 - Validasi hasil DOM manipulation
-
-## 👨‍💻 Developer
-- Frontend Developer & GitHub: [Muhamad Aditya Suhendar]
-- Tester: [Trisna Prawijaya,Aji Nata Sobari,Haekal Abdullah Ali Akbar Fajar Ramadhan]
 
 ## Cara Menjalankan
 Buka `index.html` di browser
