@@ -1,9 +1,5 @@
 # Grey Box Testing
 
-Dilakukan oleh: [Haekal Abdullah Ali Akbar Fajar Ramadhan]
-
-Metode: Kombinasi pengujian UI dan pemahaman kode (Grey Box)
-
 ## Fokus:
 - Interaksi pada `cart.html`
 - Validasi ID Game & metode pembayaran
