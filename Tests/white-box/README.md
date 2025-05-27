@@ -49,7 +49,7 @@ Tampilkan pesan error dan arahkan kembali ke login.html.
 
 
 ### Flowchart
-![Registrasi](white-box/Flowchart/Regustrasi.img)
+![Registrasi](white-box/Flowchart/Register.img)
 
 ### Flowchart (Login)
 [Start]
