@@ -49,22 +49,11 @@ Tampilkan pesan error dan arahkan kembali ke login.html.
 
 
 ### Flowchart
+# Registrasi
 ![Registrasi](Flowchart/Register.jpg)
 
-### Flowchart (Login)
-[Start]
-   ↓
-[Input Email & Password]
-   ↓
-[Email ada di localStorage?] ---> Tidak ---> [Tampilkan Error: Email tidak ditemukan] ---> [End]
-   ↓ Ya
-[Password cocok?] ---> Tidak ---> [Tampilkan Error: Password salah] ---> [End]
-   ↓ Ya
-[Tampilkan Pesan Login Sukses]
-   ↓
-[Redirect ke dashboard.html]
-   ↓
-[End]
+# Login
+![Login](Flowchart/Login.jpg)
 
 ### Coverage
 #### Test Case
