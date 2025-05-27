@@ -18,9 +18,9 @@ Website sederhana untuk pembelian top-up game, dibuat sebagai proyek kelompok ya
 ### Black Box Testing
 Dilakukan oleh: [Trisna Prawijaya]  
 Contoh test case:
-- [ ] Input kosong pada form register
-- [ ] Email tidak valid pada login
-- [ ] Password tidak cocok saat register
+- Input kosong pada form register
+- Email tidak valid pada login
+- Password tidak cocok saat register
 
 ### White Box Testing
 Dilakukan oleh: [Aji Nata Sobari]  
