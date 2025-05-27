@@ -20,6 +20,7 @@ Untuk white box testing, Anda perlu menganalisis isi dari dua fungsi ini:
 
 ### Fungsi `register()` di auth.js
 Fungsi untuk registrasi pengguna baru.
+
 • Mengambil input email, password, dan konfirmasi password.
 
 • Menampilkan loading popup dengan SweetAlert.
