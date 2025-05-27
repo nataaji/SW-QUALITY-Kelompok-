@@ -7,9 +7,7 @@ Menguji logika program, percabangan, dan fungsi secara menyeluruh.
 - Validasi: email valid, password match
 - Decision point: if password !== confirmPassword
 
-### Diagram Alir (Flowchart)
-Registrasi
-
+### Diagram Alir (Registrasi)
 [Start]
    ↓
 [Input Email, Password, Konfirmasi Password]
@@ -25,9 +23,7 @@ Registrasi
 [Redirect ke Login]
    ↓
 [End]
-
-Login
-
+### Diagram Alir (Login)
 [Start]
    ↓
 [Input Email & Password]
