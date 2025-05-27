@@ -1,4 +1,4 @@
-# Whitebox
+# White box test Adityyy Store
 
 ## Tujuan
 Cek struktur fungsi register() dan login() di auth.js
