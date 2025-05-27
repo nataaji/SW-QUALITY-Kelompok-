@@ -54,7 +54,6 @@ Metode:
 - Frontend Developer & GitHub: [Muhamad Aditya Suhendar]
 - Tester: [Trisna Prawijaya,Aji Nata Sobari,Haekal Abdullah Ali Akbar Fajar Ramadhan]
 
-## 🚀 Cara Menjalankan
-1. Clone repo: `git clone https://github.com/namakamu/repo.git`
-2. Buka `index.html` di browser
-3. Untuk hosting, gunakan [GitHub Pages](https://pages.github.com/)
+## Cara Menjalankan
+Buka `index.html` di browser
+
