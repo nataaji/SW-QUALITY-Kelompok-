@@ -96,4 +96,4 @@ Tampilkan pesan error dan arahkan kembali ke login.html.
 | 1  | Halaman login/register dibuka  | window.onload aktif    | Tidak ada admin       | Admin otomatis ditambahkan          | ✅     |
 | 2  | Admin sudah ada                | window.onload aktif    | Sudah ada admin       | Tidak mengubah isi localStorage     | ✅     |
 
-[Pdf Uji Test Case](laporan-test/Laporan_Bukti_Pengujian_authjs.pdf)
+[Pdf Test Case](laporan-test/Laporan_Bukti_Pengujian_authjs.pdf)
