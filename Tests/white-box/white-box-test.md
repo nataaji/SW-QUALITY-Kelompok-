@@ -1,4 +1,4 @@
-# README
+# Whitebox
 
 ## Tujuan
 Cek struktur fungsi register() dan login() di auth.js
