@@ -21,40 +21,23 @@ Apakah ada error handling?
 
 ### Fungsi `register()` di auth.js
 Fungsi untuk registrasi pengguna baru.
-
-Mengambil input email, password, dan konfirmasi password.
-
-Menampilkan loading popup dengan SweetAlert.
-
-Mengecek apakah email sudah terdaftar:
-
-Jika sudah, tampilkan pesan error dan arahkan kembali ke register.html.
-
-
-Jika belum terdaftar:
-
+•Mengambil input email, password, dan konfirmasi password.
+•Menampilkan loading popup dengan SweetAlert.
+•Mengecek apakah email sudah terdaftar:
+•Jika sudah, tampilkan pesan error dan arahkan kembali ke register.html.
+•Jika belum terdaftar:
 Periksa apakah password dan konfirmasi cocok.
-
-Jika tidak cocok, tampilkan pesan error.
-
-Jika cocok, simpan data pengguna baru ke localStorage, dan tampilkan pesan sukses.
+•Jika tidak cocok, tampilkan pesan error.
+•Jika cocok, simpan data pengguna baru ke localStorage, dan tampilkan pesan sukses.
 
 ### Fungsi `login()` di auth.js
 Fungsi untuk memproses login pengguna.
-
-Mengambil daftar user dari localStorage.
-
-Memeriksa apakah input email dan password cocok dengan salah satu pengguna.
-
-Jika cocok:
-
+• Mengambil daftar user dari localStorage.
+• Memeriksa apakah input email dan password cocok dengan salah satu pengguna.
+•Jika cocok:
 Simpan data pengguna yang login ke loginUsers di localStorage.
-
 Tampilkan pesan sukses menggunakan SweetAlert dan arahkan ke index.html.
-
-
-Jika tidak cocok:
-
+•Jika tidak cocok:
 Tampilkan pesan error dan arahkan kembali ke login.html.
 
 
