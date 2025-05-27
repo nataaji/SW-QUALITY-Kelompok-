@@ -8,7 +8,18 @@ Menguji logika program, percabangan, dan fungsi secara menyeluruh.
 - Decision point: if password !== confirmPassword
 
 ### Diagram Alir
-(Sisipkan flowchart dari draw.io)
+[START]
+  ↓
+[Input Email & Password]
+  ↓
+[Password = Konfirmasi Password?] --No--> [Alert "Password tidak cocok"]
+  ↓ Yes
+[Simpan ke localStorage]
+  ↓
+[Alert "Registrasi Berhasil"]
+  ↓
+[END]
+
 
 ### Coverage
 - [x] All condition branches tested
