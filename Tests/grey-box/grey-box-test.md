@@ -1,10 +1,10 @@
 # Grey Box Test - Adityyy Store
 
 ## Fokus:
-- Interaksi pada `cart.html`
-- Validasi ID Game & metode pembayaran
-- Pemeriksaan DOM manipulation
-
+- Gabungkan pengujian UI + logika kode
+- Cek interaksi ID Game & metode pembayaran (cart.html)
+- Validasi hasil DOM manipulation
+  
 ### Pengujian
 | No | Fitur          | Input                          | Ekspektasi                                   | Hasil | Status |
 |----|----------------|--------------------------------|----------------------------------------------|--------|-------|
