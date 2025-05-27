@@ -45,6 +45,9 @@ Buka `index.html` di browser
 
 ## Tampilan Aplikasi
 
+### Halaman Dashboard (Cart)
+![Dashboard Page](assets/photos/Dashboard.jpg)
+
 ### Halaman Register
 ![Register Page](assets/photos/Register.jpg)
 
