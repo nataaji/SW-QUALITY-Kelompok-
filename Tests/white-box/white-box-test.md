@@ -8,7 +8,8 @@ Menguji logika program, percabangan, dan fungsi secara menyeluruh.
 - Decision point: if password !== confirmPassword
 
 ### Diagram Alir (Flowchart)
-# Register
+Registrasi
+
 [Start]
    ↓
 [Input Email, Password, Konfirmasi Password]
