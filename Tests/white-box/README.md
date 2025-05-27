@@ -9,6 +9,7 @@
 2. login() saat submit form login
 
 • Artinya, fungsi register() dan login() berada di file auth.js
+
 Untuk white box testing, Anda perlu menganalisis isi dari dua fungsi ini:
 
 • Apakah fungsi melakukan validasi input?
