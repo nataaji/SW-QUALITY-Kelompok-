@@ -1,4 +1,4 @@
-# Grey Box Testing
+# Grey Box Test - Adityyy Store
 
 ## Fokus:
 - Interaksi pada `cart.html`
