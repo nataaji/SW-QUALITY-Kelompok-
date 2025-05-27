@@ -36,20 +36,6 @@ Metode:
 - Cek interaksi ID Game & metode pembayaran (cart.html)
 - Validasi hasil DOM manipulation
 
-## Struktur Proyek
-```
-├── index.html
-├── login.html
-├── register.html
-├── cart.html
-├── assets/
-│   ├── js/
-│   ├── css/
-│   ├── photos/
-│   └── audios/
-└── README.md
-```
-
 ## 👨‍💻 Developer
 - Frontend Developer & GitHub: [Muhamad Aditya Suhendar]
 - Tester: [Trisna Prawijaya,Aji Nata Sobari,Haekal Abdullah Ali Akbar Fajar Ramadhan]
