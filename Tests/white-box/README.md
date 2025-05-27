@@ -48,22 +48,9 @@ Tampilkan pesan sukses menggunakan SweetAlert dan arahkan ke index.html.
 Tampilkan pesan error dan arahkan kembali ke login.html.
 
 
-### Flowchart (Registrasi)
-[Start]
-   ↓
-[Input Email, Password, Konfirmasi Password]
-   ↓
-[Password == Konfirmasi?] ---> Tidak ---> [Tampilkan Error: Password tidak cocok] ---> [End]
-   ↓ Ya
-[Email sudah ada di localStorage?] ---> Ya ---> [Tampilkan Error: Email sudah terdaftar] ---> [End]
-   ↓ Tidak
-[Simpan Email + Password ke localStorage]
-   ↓
-[Tampilkan Pesan Sukses]
-   ↓
-[Redirect ke Login]
-   ↓
-[End]
+### Flowchart
+![Registrasi](white-box/Flowchart/Regustrasi.img)
+
 ### Flowchart (Login)
 [Start]
    ↓
