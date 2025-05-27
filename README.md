@@ -46,12 +46,12 @@ Buka `index.html` di browser
 ## Tampilan Aplikasi
 
 ### Halaman Register
-![Register Page](assets/photos/screenshot-register.png)
+![Register Page](assets/photos/Register.jpg)
 
 ### Halaman Login
-![Login Page](assets/photos/screenshot-login.png)
+![Login Page](assets/photos/Login.jpg)
 
 ### Halaman Keranjang (Cart)
-![Cart Page](assets/photos/screenshot-cart.png)
+![Cart Page](assets/photos/Keranjang.jpg)
 
 
