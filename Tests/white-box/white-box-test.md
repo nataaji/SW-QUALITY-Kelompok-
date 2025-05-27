@@ -83,4 +83,4 @@ Tampilkan pesan error dan arahkan kembali ke login.html.
 
 ### Coverage
 #### Test Case
-[Tabel Uji Test Case](./Laporan_Bukti_Pengujian_authjs.pdf)
+[Tabel Uji Test Case](laporan-test/Laporan_Bukti_Pengujian_authjs.pdf)
