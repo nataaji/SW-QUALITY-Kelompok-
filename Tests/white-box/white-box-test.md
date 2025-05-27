@@ -82,5 +82,4 @@ Tampilkan pesan error dan arahkan kembali ke login.html.
 [End]
 
 ### Coverage
-- [x] All condition branches tested
-- [x] Loop pada cart traversal tested
+#### Test Case
