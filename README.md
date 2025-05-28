@@ -32,19 +32,19 @@ Cakupan:
 
 Skenario Uji White Box
 
-• Desk Checking
+- Desk Checking
 
-• Code Walkthrough
+- Code Walkthrough
 
-• Formal Inspection
+- Formal Inspection
 
-• Control Flow Testing
+- Control Flow Testing
 
-• Data Flow Testing
+- Data Flow Testing
 
-• Basic Path Testing
+- Basic Path Testing
 
-• Loop Testing
+- Loop Testing
 
 ### Grey Box Testing
 Dilakukan oleh: [Haekal Abdullah Ali Akbar Fajar Ramadhan]  
