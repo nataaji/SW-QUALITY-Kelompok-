@@ -55,8 +55,8 @@
 
 ° Validasi kekuatan password (seperti panjang minimal) tidak ada.
 
-### Formal Inspection
-### Control Flow Testing
-### Data Flow Testing
-### Basic Path Testing
-### Loop Testing
+#### Formal Inspection
+#### Control Flow Testing
+#### Data Flow Testing
+#### Basic Path Testing
+#### Loop Testing
