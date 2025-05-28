@@ -56,6 +56,19 @@ Catatan:
 - Validasi kekuatan password (seperti panjang minimal) tidak ada.
 
 #### Formal Inspection
+
+1. Input/output dan format validasi:
+
+- Input: email, password, konfirmasi password.
+
+2. Output: SweetAlert untuk hasil sukses/gagal.
+
+Catatan:
+
+- Belum ada validasi karakter email atau panjang password.
+
+- Tidak ada feedback langsung di form (semuanya melalui alert).
+
 #### Control Flow Testing
 #### Data Flow Testing
 #### Basic Path Testing
