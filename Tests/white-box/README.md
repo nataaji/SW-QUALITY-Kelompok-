@@ -98,4 +98,39 @@ Jangan Lupa Masukan Gambar
 
   
 ### Basic Path Testing
+
+Cyclomatic Complexity
+- Rumus:
+  -V(G) = E - N + 2P
+  
+  - N = jumlah node (keputusan & aksi)
+  
+  - P = jumlah komponen terhubung (biasanya 1 untuk satu fungsi)
+
+Fungsi login()
+
+Keputusan (if):
+
+- if (password === passwordInput && email === emailInput)
+
+- if (result.isConfirmed) → (dalam swal sukses)
+
+- if (!userFound)
+
+- if (result.isConfirmed) → (dalam swal gagal)
+
+Total node keputusan: 4
+Estimasi node total: ~8
+Estimasi edge: ~9–10
+Komponen terhubung (P): 1
+
+V(G) = 10 - 8 + 2(1) = 4
+
+| TC ID | Nama Skenario                        | Input                          | Kondisi                            | Expected Output                           |
+|-------|--------------------------------------|--------------------------------|-------------------------------------|--------------------------------------------|
+| TC-R1 | Register gagal – email sudah ada     | Email terdaftar, password cocok | emailUserExists = true             | Alert error: email sudah digunakan         |
+| TC-R2 | Register gagal – password tidak cocok| Email baru, password mismatch   | emailUserExists = false, password mismatch | Alert error: konfirmasi tidak cocok   |
+| TC-R3 | Register berhasil                    | Email baru, password cocok      | emailUserExists = false, password match | Alert sukses, redirect ke login.html |
+| TC-R4 | Register – localStorage kosong       | Email pertama, password cocok   | users = null                        | Buat array users baru, simpan, alert sukses|
+
 ### Loop Testing
