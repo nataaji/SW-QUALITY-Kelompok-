@@ -94,7 +94,7 @@ Jangan Lupa Masukan Gambar
 | 6  | emailUserExists      | register()             | Validasi eksistensi email   | Digunakan | Dihasilkan dari some()                  |
 
 - Flowchart
-![Flowchart](assets/photos/Keranjang.jpg)
+![Flowchart](flowchart/IMG_20250528_165630.png)
 
   
 ### Basic Path Testing
