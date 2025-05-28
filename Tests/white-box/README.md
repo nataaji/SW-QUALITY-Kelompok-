@@ -126,11 +126,11 @@ Komponen terhubung (P): 1
 
 V(G) = 10 - 8 + 2(1) = 4
 
-| TC ID | Nama Skenario                        | Input                          | Kondisi                            | Expected Output                           |
-|-------|--------------------------------------|--------------------------------|-------------------------------------|--------------------------------------------|
-| TC-R1 | Register gagal – email sudah ada     | Email terdaftar, password cocok | emailUserExists = true             | Alert error: email sudah digunakan         |
-| TC-R2 | Register gagal – password tidak cocok| Email baru, password mismatch   | emailUserExists = false, password mismatch | Alert error: konfirmasi tidak cocok   |
-| TC-R3 | Register berhasil                    | Email baru, password cocok      | emailUserExists = false, password match | Alert sukses, redirect ke login.html |
-| TC-R4 | Register – localStorage kosong       | Email pertama, password cocok   | users = null                        | Buat array users baru, simpan, alert sukses|
+Test Case – Fungsi login()
 
-### Loop Testing
+| TC ID | Nama Skenario                        | Input                        | Kondisi                            | Expected Output                           |
+|-------|--------------------------------------|------------------------------|-------------------------------------|--------------------------------------------|
+| TC-L1 | Login berhasil                       | Email terdaftar, password benar | user ditemukan                      | Alert sukses, redirect ke index.html       |
+| TC-L2 | Login gagal – email tidak ditemukan  | Email tidak terdaftar         | user tidak ditemukan                | Alert gagal, redirect ke login.html        |
+| TC-L3 | Login gagal – password salah         | Email benar, password salah   | user tidak ditemukan (password mismatch) | Alert gagal, redirect ke login.html  |
+| TC-L4 | Login – users kosong                 | Tidak ada user di localStorage| loop tidak jalan                    | Alert gagal, redirect ke login.html        |
