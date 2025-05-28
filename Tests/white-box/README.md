@@ -57,7 +57,7 @@ Catatan:
 
 #### Formal Inspection
 
-1. Input/output dan format validasi:
+Input/output dan format validasi:
 
 - Input: email, password, konfirmasi password.
 
