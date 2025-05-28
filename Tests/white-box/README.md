@@ -25,32 +25,32 @@
 
 • Fungsi createAdminUser()
 
-Membuat akun admin default jika belum ada.
+1. Membuat akun admin default jika belum ada.
 
-Aman digunakan, meskipun bisa dipertimbangkan untuk menghindari hardcode password.
+2. Aman digunakan, meskipun bisa dipertimbangkan untuk menghindari hardcode password.
 
 • Fungsi login()
 
-Mencari user yang cocok berdasarkan email dan password.
+1. Mencari user yang cocok berdasarkan email dan password.
 
-Menghapus data login sebelumnya dan menyimpan user yang berhasil login.
+2. Menghapus data login sebelumnya dan menyimpan user yang berhasil login.
 
-Catatan:
+• Catatan:
 
-Tidak ada validasi format email (misalnya dengan regex).
+° Tidak ada validasi format email (misalnya dengan regex).
 
-Email dan password dicek dengan === tanpa sanitasi input.
+° Email dan password dicek dengan === tanpa sanitasi input.
 
 • Fungsi register()
 
-Memeriksa email sudah terdaftar.
+1. Memeriksa email sudah terdaftar.
 
-Memvalidasi kesesuaian password dan konfirmasi.
+2. Memvalidasi kesesuaian password dan konfirmasi.
 
-Jika berhasil, menambahkan user baru.
+3. Jika berhasil, menambahkan user baru.
 
-Catatan:
+• Catatan:
 
-Nama dan username diisi sama dengan email.
+° Nama dan username diisi sama dengan email.
 
-Validasi kekuatan password (seperti panjang minimal) tidak ada.
+° Validasi kekuatan password (seperti panjang minimal) tidak ada.
