@@ -61,7 +61,7 @@ Catatan:
 
 - Input: email, password, konfirmasi password.
 
-2. Output: SweetAlert untuk hasil sukses/gagal.
+- Output: SweetAlert untuk hasil sukses/gagal.
 
 Catatan:
 
