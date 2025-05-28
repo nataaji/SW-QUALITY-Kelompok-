@@ -1,5 +1,5 @@
-# White-Box Testing
-### Skenario Uji White Box
+# WHITE-BOX TESTING
+## Skenario Uji White Box
 
 - Desk Checking
 
@@ -15,13 +15,13 @@
 
 - Loop Testing
 
-#### Desk Checking
+### Desk Checking
 
 - Baca kode per baris untuk pastikan logika benar dan semua jalur masuk akal.
 
 - Contoh temuan: login tidak valid langsung diarahkan kembali ke halaman login.
 
-#### Code Walkthrough
+### Code Walkthrough
 
 Fungsi createAdminUser()
 
@@ -55,7 +55,7 @@ Catatan:
 
 - Validasi kekuatan password (seperti panjang minimal) tidak ada.
 
-#### Formal Inspection
+### Formal Inspection
 
 Input/output dan format validasi:
 
@@ -71,7 +71,7 @@ Catatan:
 
 Jangan Lupa Masukan Gambar
 
-#### Control Flow Testing
-#### Data Flow Testing
-#### Basic Path Testing
-#### Loop Testing
+### Control Flow Testing
+### Data Flow Testing
+### Basic Path Testing
+### Loop Testing
