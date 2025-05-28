@@ -72,6 +72,26 @@ Catatan:
 Jangan Lupa Masukan Gambar
 
 ### Control Flow Testing
+
+| No | Fungsi    | Kondisi                                                      | Cabang Logika yang Diuji                         | Hasil |
+|----|-----------|--------------------------------------------------------------|--------------------------------------------------|--------|
+| 1  | login     | Email dan password cocok                                     | user ditemukan → alert sukses → redirect index  | Sukses |
+| 2  | login     | Email cocok, password salah                                  | user tidak ditemukan → alert gagal → login.html | Sukses |
+| 3  | login     | Email tidak ditemukan                                        | user tidak ditemukan → alert gagal → login.html | Sukses |
+| 4  | register  | Email sudah terdaftar                                        | tampilkan alert error email                     | Sukses |
+| 5  | register  | Password dan konfirmasi tidak cocok                          | tampilkan alert error password mismatch         | Sukses |
+| 6  | register  | Email baru, password cocok                                   | simpan user → alert sukses → redirect login     | Sukses |
+
 ### Data Flow Testing
+
+| No | Variabel             | Lokasi Deklarasi      | Lokasi Penggunaan          | Status    | Catatan                                  |
+|----|----------------------|------------------------|-----------------------------|-----------|------------------------------------------|
+| 1  | emailInput           | login(), register()    | Kondisi pencocokan email    | Digunakan | Input dari user                         |
+| 2  | passwordInput        | login(), register()    | Pengecekan dan penyimpanan  | Digunakan | Tidak dienkripsi                        |
+| 3  | passwordKonfirmasi   | register()             | Validasi kesamaan password  | Digunakan | Validasi eksplisit                      |
+| 4  | users                | Semua fungsi           | Dicari, dimodifikasi        | Digunakan | Disimpan di localStorage                |
+| 5  | userFound            | login()                | Pengecekan hasil pencarian  | Digunakan | Nilai boolean                          |
+| 6  | emailUserExists      | register()             | Validasi eksistensi email   | Digunakan | Dihasilkan dari some()                  |
+
 ### Basic Path Testing
 ### Loop Testing
