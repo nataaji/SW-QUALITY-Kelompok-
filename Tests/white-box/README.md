@@ -23,13 +23,13 @@
 
 #### Code Walkthrough
 
-1. Fungsi createAdminUser()
+Fungsi createAdminUser()
 
  - Membuat akun admin default jika belum ada.
 
 - Aman digunakan, meskipun bisa dipertimbangkan untuk menghindari hardcode password.
 
-2. Fungsi login()
+Fungsi login()
 
 - Mencari user yang cocok berdasarkan email dan password.
 
@@ -41,7 +41,7 @@
 
 - Email dan password dicek dengan === tanpa sanitasi input.
 
-3. Fungsi register()
+Fungsi register()
 
 - Memeriksa email sudah terdaftar.
 
