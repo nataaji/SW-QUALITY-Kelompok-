@@ -29,9 +29,22 @@ Contoh test case:
 ### White Box Testing
 Dilakukan oleh: [Aji Nata Sobari]  
 Cakupan:
-- Cek struktur fungsi `register()` dan `login()` di `auth.js`
-- Buat flowchart decision tree
-- Lakukan coverage path pada validasi input
+
+Skenario Uji White Box
+
+• Desk Checking
+
+• Code Walkthrough
+
+• Formal Inspection
+
+• Control Flow Testing
+
+• Data Flow Testing
+
+• Basic Path Testing
+
+• Loop Testing
 
 ### Grey Box Testing
 Dilakukan oleh: [Haekal Abdullah Ali Akbar Fajar Ramadhan]  
