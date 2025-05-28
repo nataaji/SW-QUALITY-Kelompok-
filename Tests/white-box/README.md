@@ -15,8 +15,42 @@
 
 • Loop Testing
 
-### Desk Checking
+#### Desk Checking
 
 • Baca kode per baris untuk pastikan logika benar dan semua jalur masuk akal.
 
 • Contoh temuan: login tidak valid langsung diarahkan kembali ke halaman login.
+
+#### Code Walkthrough
+
+• Fungsi createAdminUser()
+
+Membuat akun admin default jika belum ada.
+
+Aman digunakan, meskipun bisa dipertimbangkan untuk menghindari hardcode password.
+
+• Fungsi login()
+
+Mencari user yang cocok berdasarkan email dan password.
+
+Menghapus data login sebelumnya dan menyimpan user yang berhasil login.
+
+Catatan:
+
+Tidak ada validasi format email (misalnya dengan regex).
+
+Email dan password dicek dengan === tanpa sanitasi input.
+
+• Fungsi register()
+
+Memeriksa email sudah terdaftar.
+
+Memvalidasi kesesuaian password dan konfirmasi.
+
+Jika berhasil, menambahkan user baru.
+
+Catatan:
+
+Nama dan username diisi sama dengan email.
+
+Validasi kekuatan password (seperti panjang minimal) tidak ada.
