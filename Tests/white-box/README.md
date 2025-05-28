@@ -93,5 +93,7 @@ Jangan Lupa Masukan Gambar
 | 5  | userFound            | login()                | Pengecekan hasil pencarian  | Digunakan | Nilai boolean                          |
 | 6  | emailUserExists      | register()             | Validasi eksistensi email   | Digunakan | Dihasilkan dari some()                  |
 
+- Flowchart
+  
 ### Basic Path Testing
 ### Loop Testing
