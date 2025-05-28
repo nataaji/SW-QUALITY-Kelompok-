@@ -23,37 +23,37 @@
 
 #### Code Walkthrough
 
-- Fungsi createAdminUser()
+1. Fungsi createAdminUser()
 
-1. Membuat akun admin default jika belum ada.
+ - Membuat akun admin default jika belum ada.
 
-2. Aman digunakan, meskipun bisa dipertimbangkan untuk menghindari hardcode password.
+- Aman digunakan, meskipun bisa dipertimbangkan untuk menghindari hardcode password.
 
-- Fungsi login()
+2. Fungsi login()
 
-1. Mencari user yang cocok berdasarkan email dan password.
+- Mencari user yang cocok berdasarkan email dan password.
 
-2. Menghapus data login sebelumnya dan menyimpan user yang berhasil login.
+- Menghapus data login sebelumnya dan menyimpan user yang berhasil login.
 
-- Catatan:
+ Catatan:
 
-1. Tidak ada validasi format email (misalnya dengan regex).
+- Tidak ada validasi format email (misalnya dengan regex).
 
-2. Email dan password dicek dengan === tanpa sanitasi input.
+- Email dan password dicek dengan === tanpa sanitasi input.
 
-- Fungsi register()
+3. Fungsi register()
 
-1. Memeriksa email sudah terdaftar.
+- Memeriksa email sudah terdaftar.
 
-2. Memvalidasi kesesuaian password dan konfirmasi.
+- Memvalidasi kesesuaian password dan konfirmasi.
 
-3. Jika berhasil, menambahkan user baru.
+- Jika berhasil, menambahkan user baru.
 
-- Catatan:
+Catatan:
 
-1. Nama dan username diisi sama dengan email.
+- Nama dan username diisi sama dengan email.
 
-2. Validasi kekuatan password (seperti panjang minimal) tidak ada.
+- Validasi kekuatan password (seperti panjang minimal) tidak ada.
 
 #### Formal Inspection
 #### Control Flow Testing
