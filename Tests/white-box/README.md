@@ -1,5 +1,5 @@
 # WHITE-BOX TESTING
-## Skenario Uji White Box
+## Skenario Uji White Box (auth.js)
 
 - Desk Checking
 
