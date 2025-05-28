@@ -106,7 +106,7 @@ Cyclomatic Complexity
   
   - P = jumlah komponen terhubung (biasanya 1 untuk satu fungsi)
 
-1. Fungsi login()
+Fungsi login()
 
 Keputusan (if):
 
@@ -134,7 +134,7 @@ Test Case – Fungsi login()
 | TC-L3 | Login gagal – password salah         | Email benar, password salah   | user tidak ditemukan (password mismatch) | Alert gagal, redirect ke login.html  |
 | TC-L4 | Login – users kosong                 | Tidak ada user di localStorage| loop tidak jalan                    | Alert gagal, redirect ke login.html        |
 
-2. Fungsi register()
+Fungsi register()
 
 Keputusan (if):
 
