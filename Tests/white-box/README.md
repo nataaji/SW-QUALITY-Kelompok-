@@ -69,6 +69,8 @@ Catatan:
 
 - Tidak ada feedback langsung di form (semuanya melalui alert).
 
+Jangan Lupa Masukan Gambar
+
 #### Control Flow Testing
 #### Data Flow Testing
 #### Basic Path Testing
