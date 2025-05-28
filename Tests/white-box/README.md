@@ -95,8 +95,7 @@ Jangan Lupa Masukan Gambar
 
 - Flowchart
 ![Flowchart](flowchart/IMG_20250528_165630.png)
-
-  
+ 
 ### Basic Path Testing
 
 Cyclomatic Complexity
@@ -164,3 +163,5 @@ Test Case - Fungsi register()
 | TC-R2 | Register gagal – password tidak cocok| Email baru, password mismatch   | emailUserExists = false, password mismatch | Alert error: konfirmasi tidak cocok   |
 | TC-R3 | Register berhasil                    | Email baru, password cocok      | emailUserExists = false, password match | Alert sukses, redirect ke login.html |
 | TC-R4 | Register – localStorage kosong       | Email pertama, password cocok   | users = null                        | Buat array users baru, simpan, alert sukses|
+
+# Loop Testing
