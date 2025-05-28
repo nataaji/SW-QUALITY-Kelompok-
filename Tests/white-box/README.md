@@ -107,7 +107,7 @@ Cyclomatic Complexity
   
   - P = jumlah komponen terhubung (biasanya 1 untuk satu fungsi)
 
-Fungsi login()
+1. Fungsi login()
 
 Keputusan (if):
 
@@ -134,3 +134,33 @@ Test Case – Fungsi login()
 | TC-L2 | Login gagal – email tidak ditemukan  | Email tidak terdaftar         | user tidak ditemukan                | Alert gagal, redirect ke login.html        |
 | TC-L3 | Login gagal – password salah         | Email benar, password salah   | user tidak ditemukan (password mismatch) | Alert gagal, redirect ke login.html  |
 | TC-L4 | Login – users kosong                 | Tidak ada user di localStorage| loop tidak jalan                    | Alert gagal, redirect ke login.html        |
+
+2. Fungsi register()
+
+Keputusan (if):
+
+1. if (emailUserExists)
+
+2. if (result.isConfirmed) → swal error 1
+
+3. if (passwordInput !== passwordKonfirmasiInput)
+
+4. if (result.isConfirmed) → swal error 2
+
+5. if (result.isConfirmed) → swal sukses
+
+Total node keputusan: 5
+Estimasi node total: ~10
+Estimasi edge: ~12
+Komponen terhubung (P): 1
+
+V(G) = 12 - 10 + 2(1) = 4
+
+Test Case - Fungsi register()
+
+| TC ID | Nama Skenario                        | Input                          | Kondisi                            | Expected Output                           |
+|-------|--------------------------------------|--------------------------------|-------------------------------------|--------------------------------------------|
+| TC-R1 | Register gagal – email sudah ada     | Email terdaftar, password cocok | emailUserExists = true             | Alert error: email sudah digunakan         |
+| TC-R2 | Register gagal – password tidak cocok| Email baru, password mismatch   | emailUserExists = false, password mismatch | Alert error: konfirmasi tidak cocok   |
+| TC-R3 | Register berhasil                    | Email baru, password cocok      | emailUserExists = false, password match | Alert sukses, redirect ke login.html |
+| TC-R4 | Register – localStorage kosong       | Email pertama, password cocok   | users = null                        | Buat array users baru, simpan, alert sukses|
