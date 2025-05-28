@@ -1,47 +1,47 @@
 # White-Box Testing
 ### Skenario Uji White Box
 
-• Desk Checking
+- Desk Checking
 
-• Code Walkthrough
+- Code Walkthrough
 
-• Formal Inspection
+- Formal Inspection
 
-• Control Flow Testing
+- Control Flow Testing
 
-• Data Flow Testing
+- Data Flow Testing
 
-• Basic Path Testing
+- Basic Path Testing
 
-• Loop Testing
+- Loop Testing
 
 #### Desk Checking
 
-• Baca kode per baris untuk pastikan logika benar dan semua jalur masuk akal.
+- Baca kode per baris untuk pastikan logika benar dan semua jalur masuk akal.
 
-• Contoh temuan: login tidak valid langsung diarahkan kembali ke halaman login.
+- Contoh temuan: login tidak valid langsung diarahkan kembali ke halaman login.
 
 #### Code Walkthrough
 
-• Fungsi createAdminUser()
+- Fungsi createAdminUser()
 
 1. Membuat akun admin default jika belum ada.
 
 2. Aman digunakan, meskipun bisa dipertimbangkan untuk menghindari hardcode password.
 
-• Fungsi login()
+- Fungsi login()
 
 1. Mencari user yang cocok berdasarkan email dan password.
 
 2. Menghapus data login sebelumnya dan menyimpan user yang berhasil login.
 
-• Catatan:
+- Catatan:
 
-° Tidak ada validasi format email (misalnya dengan regex).
+1. Tidak ada validasi format email (misalnya dengan regex).
 
-° Email dan password dicek dengan === tanpa sanitasi input.
+2. Email dan password dicek dengan === tanpa sanitasi input.
 
-• Fungsi register()
+- Fungsi register()
 
 1. Memeriksa email sudah terdaftar.
 
@@ -49,11 +49,11 @@
 
 3. Jika berhasil, menambahkan user baru.
 
-• Catatan:
+- Catatan:
 
-° Nama dan username diisi sama dengan email.
+1. Nama dan username diisi sama dengan email.
 
-° Validasi kekuatan password (seperti panjang minimal) tidak ada.
+2. Validasi kekuatan password (seperti panjang minimal) tidak ada.
 
 #### Formal Inspection
 #### Control Flow Testing
