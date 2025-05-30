@@ -69,6 +69,7 @@ Catatan:
 
 - Tidak ada feedback langsung di form (semuanya melalui alert).
 
+- Login Berhasil
 ![Login Berhasil](screenshot/BerhasilLogin.jpg)
 
 ### Control Flow Testing
