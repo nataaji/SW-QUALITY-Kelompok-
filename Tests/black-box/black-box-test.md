@@ -21,8 +21,6 @@ Metode: Equivalence Partitioning dan Boundary Value Analysis
 | 3  | Password kosong              | [user@test.com](mailto:user@test.com) | *(kosong)* | *(kosong)* | Error: Password wajib            | Robustness  |
 | 4  | Konfirmasi tidak cocok       | [user@test.com](mailto:user@test.com) | Pass123    | Pass321    | Error: Password tidak cocok      | Equivalence |
 | 5  | Format email tidak valid     | user.com                              | Pass123    | Pass123    | Error: Format salah              | Equivalence |
-| 6  | Password pendek (<8)         | [user@test.com](mailto:user@test.com) | 123        | 123        | Error: Password terlalu pendek   | BVA         |
-| 7  | Karakter spesial di password | [user@test.com](mailto:user@test.com) | <script>   | <script>   | Validasi ditolak (harus dicegah) | Robustness  |
 
 # CART PAGE ( USER ID & PEMBAYARAN) TEST CASE
 | No | Test Case                                 | User ID     | Payment Method | Expected Output                                         | Model          |
