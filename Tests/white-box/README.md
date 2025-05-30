@@ -70,7 +70,7 @@ Catatan:
 - Tidak ada feedback langsung di form (semuanya melalui alert).
 
 - Berhasil Login
-![Flowchart](assets/screenshot/Berhasil Login.png)
+![Berhasil Login](assets/screenshot/Berhasil Login.png)
 
 ### Control Flow Testing
 
