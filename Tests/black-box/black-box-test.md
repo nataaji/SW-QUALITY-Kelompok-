@@ -1,14 +1,15 @@
 # Black Box Test - Adityyy Store
 
-Metode: Pengujian tanpa melihat kode sumber (Black Box Testing)
+Metode: Equivalence Partitioning dan Boundary Value Analysis
 
-- Input kosong pada form register
-- Email tidak valid pada login
-- Password tidak cocok saat register
+# LOGIN TEST CASE
 
-| No | Fitur      | Input                  | Ekspektasi                              | Hasil Aktual | Status |
-|----|------------|------------------------|-----------------------------------------|--------------|--------|
-| 1  | Register   | Username/email kosong  | Muncul pesan "Wajib diisi"              | Sesuai       | ✅     |
-| 2  | Login      | Email tidak valid      | Muncul pesan "Email tidak valid"        | Sesuai       | ✅     |
-| 3  | Register   | Password tidak cocok   | Muncul pesan "Password tidak cocok"     | Sesuai       | ✅     |
-```
+| No | Test Case                    | Input Email                                 | Input Password | Expected Output             | Model           |
+| -- | ---------------------------- | ------------------------------------------- | -------------- | --------------------------- | --------------- |
+| 1  | Valid login                  | [user@example.com](mailto:user@example.com) | password123    | Login berhasil              | Equivalence     |
+| 2  | Kosongkan email              | *(kosong)*                                  | password123    | Error: Email wajib diisi    | Boundary/Robust |
+| 3  | Kosongkan password           | [user@example.com](mailto:user@example.com) | *(kosong)*     | Error: Password wajib diisi | Boundary/Robust |
+| 4  | Email tidak valid (tanpa @)  | userexample.com                             | password123    | Error: Format email salah   | Equivalence     |
+| 5  | Email terlalu panjang (>255) | 256 char email                              | password123    | Error / dipotong / validasi | BVA             |
+| 6  | Password salah               | [user@example.com](mailto:user@example.com) | wrongpass      | Error: Login gagal          | Equivalence     |
+| 7  | SQL Injection attempt        | ' OR '1'='1                                 | anything       | Error / Tidak login         | Robustness      |
