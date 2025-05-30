@@ -89,6 +89,9 @@ Screenshot
 - Daftar Gagal (Email Terdaftar)
 ![Daftar Gagal](screenshot/EmailTerdaftar.jpg)
 
+- Daftar Gagal (Konfirmasi Password Tidak Cocok)
+![Daftar Gagal](screenshot/KonfirmasiPasswordTidakCocok.jpg)
+
 ### Control Flow Testing
 
 | No | Fungsi    | Kondisi                                                      | Cabang Logika yang Diuji                         | Hasil |
