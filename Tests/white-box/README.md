@@ -86,6 +86,9 @@ Screenshot
 - Daftar Berhasil
 ![Daftar Berhasil](screenshot/BerhasilDaftar.jpg)
 
+- Daftar Gagal (Email Terdaftar)
+![Daftar Gagal](screenshot/EmailTerdaftar.jpg)
+
 ### Control Flow Testing
 
 | No | Fungsi    | Kondisi                                                      | Cabang Logika yang Diuji                         | Hasil |
