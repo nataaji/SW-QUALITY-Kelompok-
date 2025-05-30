@@ -69,6 +69,8 @@ Catatan:
 
 - Tidak ada feedback langsung di form (semuanya melalui alert).
 
+![Berhasil Login](screenshot/Berhasil Login.jpg)
+
 ### Control Flow Testing
 
 | No | Fungsi    | Kondisi                                                      | Cabang Logika yang Diuji                         | Hasil |
