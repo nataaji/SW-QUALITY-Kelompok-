@@ -25,7 +25,7 @@ Metode: Equivalence Partitioning dan Boundary Value Analysis
 | 6  | Password pendek (<8)         | [user@test.com](mailto:user@test.com) | 123        | 123        | Error: Password terlalu pendek   | BVA         |
 | 7  | Karakter spesial di password | [user@test.com](mailto:user@test.com) | <script>   | <script>   | Validasi ditolak (harus dicegah) | Robustness  |
 
-# CARD PAGE ( USER ID & PEMBAYARAN) TEST CASE
+# CART PAGE ( USER ID & PEMBAYARAN) TEST CASE
 | No | Test Case                        | User ID    | Metode Pembayaran | Expected Output                      | Model              |
 | -- | -------------------------------- | ---------- | ----------------- | ------------------------------------ | ------------------ |
 | 1  | Semua input valid                | 12345678   | QRIS              | Transaksi berhasil                   | Equivalence        |
