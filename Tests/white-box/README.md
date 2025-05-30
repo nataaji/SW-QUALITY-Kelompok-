@@ -1,19 +1,7 @@
 # WHITE-BOX TESTING
 ## Skenario Uji White Box (auth.js)
 
-- Desk Checking
-
-- Code Walkthrough
-
-- Formal Inspection
-
-- Control Flow Testing
-
-- Data Flow Testing
-
-- Basic Path Testing
-
-- Loop Testing
+![Alur Testing](workflow/.jpg)
 
 ### Desk Checking
 
