@@ -71,7 +71,7 @@ Catatan:
 
 - Berhasil Login
 
-![Berhasil Login](assets/screenshot/Berhasil Login.png)
+![Berhasil Login](assets/screenshot/Berhasil Login.jpg)
 
 ### Control Flow Testing
 
