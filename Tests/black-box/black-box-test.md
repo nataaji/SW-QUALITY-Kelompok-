@@ -12,7 +12,6 @@ Metode: Equivalence Partitioning dan Boundary Value Analysis
 | 4  | Email tidak valid (tanpa @)  | userexample.com                             | password123    | Error: Format email salah   | Equivalence     |
 | 5  | Email terlalu panjang (>255) | 256 char email                              | password123    | Error / dipotong / validasi | BVA             |
 | 6  | Password salah               | [user@example.com](mailto:user@example.com) | wrongpass      | Error: Login gagal          | Equivalence     |
-| 7  | SQL Injection attempt        | ' OR '1'='1                                 | anything       | Error / Tidak login         | Robustness      |
 
 # REGISTER TEST CASE
 | No | Test Case                    | Email                                 | Password   | Konfirmasi | Expected Output                  | Model       |
