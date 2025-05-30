@@ -1,7 +1,8 @@
 # WHITE-BOX TESTING
 ## Skenario Uji White Box (auth.js)
 
-![Alur Testing](workflow/.jpg)
+![Alur Testing](workflow/IMG_20250530_214330.png
+)
 
 ### Desk Checking
 
