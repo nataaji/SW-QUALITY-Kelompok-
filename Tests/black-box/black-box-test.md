@@ -26,12 +26,15 @@ Metode: Equivalence Partitioning dan Boundary Value Analysis
 | 7  | Karakter spesial di password | [user@test.com](mailto:user@test.com) | <script>   | <script>   | Validasi ditolak (harus dicegah) | Robustness  |
 
 # CART PAGE ( USER ID & PEMBAYARAN) TEST CASE
-| No | Test Case                        | User ID    | Metode Pembayaran | Expected Output                      | Model              |
-| -- | -------------------------------- | ---------- | ----------------- | ------------------------------------ | ------------------ |
-| 1  | Semua input valid                | 12345678   | QRIS              | Transaksi berhasil                   | Equivalence        |
-| 2  | Kosongkan User ID                | *(kosong)* | QRIS              | Error: User ID wajib diisi           | Robustness         |
-| 3  | Format User ID tidak valid       | 1234abcd   | QRIS              | Error: Format salah / tidak diterima | Equivalence        |
-| 4  | Input panjang (>50 karakter)     | panjang    | QRIS              | Error atau dipotong otomatis         | BVA                |
-| 5  | Pilih metode pembayaran          | 12345678   | GoPay             | Harga berubah sesuai metode          | Decision Table     |
-| 6  | Tidak memilih metode pembayaran  | 12345678   | *(kosong)*        | Error: Harus pilih metode            | Robustness         |
-| 7  | Klik semua metode berturut-turut | 12345678   | Semua metode      | UI tetap stabil                      | Stress / Endurance |
+| No | Test Case                                 | User ID     | Payment Method | Expected Output                                         | Model          |
+| -- | ----------------------------------------- | ----------- | -------------- | ------------------------------------------------------- | -------------- |
+| 1  | Tambah 1 User ID valid                    | 123456789   | QRIS           | Berhasil menambahkan 1 user                             | Equivalence    |
+| 2  | User ID kosong                            | (kosong)    | QRIS           | Error: Silakan isi User ID terlebih dahulu!             | Robustness     |
+| 3  | User ID < 9 digit                         | 12345678    | QRIS           | Error: User ID minimal 9 digit!                         | BVA            |
+| 4  | User ID > 10 digit                        | 12345678901 | QRIS           | Error: User ID maksimal 10 digit!                       | BVA            |
+| 5  | Duplikat User ID                          | 123456789   | QRIS           | Error: User ID sudah ditambahkan sebelumnya!            | Decision Table |
+| 6  | Tambah lebih dari 5 User ID               | >5 data     | QRIS           | Error: Maksimal hanya 5 User ID                         | Robustness     |
+| 7  | User ID valid, tapi jumlah diamond kosong | 123456789   | QRIS           | Error: Belum memasukkan jumlah item                     | Equivalence    |
+| 8  | Tidak memilih metode pembayaran           | 123456789   | (kosong)       | Error: Mohon memilih metode pembayaran terlebih dahulu! | Robustness     |
+| 9  | Generate invoice tanpa email              | 123456789   | QRIS           | Error: Mohon masukkan email pengiriman invoice!         | Robustness     |
+| 10 | Hapus User ID yang tidak ada              | 000000000   | QRIS           | Error: User ID tidak ditemukan!                         | Negative Path  |
