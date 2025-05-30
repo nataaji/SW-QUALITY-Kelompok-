@@ -75,7 +75,7 @@ Screenshot
 ![Halaman Login](screenshot/HalamanLogin.jpg)
 
 - Halaman Registrasi
-![Halaman Registrasi](screenshot/HalamanRegistrasi.jpg)
+![Halaman Register](screenshot/HalamanRegistrasi.jpg)
 
 - Login Berhasil
 ![Login Berhasil](screenshot/BerhasilLogin.jpg)
