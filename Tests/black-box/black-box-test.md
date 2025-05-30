@@ -31,7 +31,6 @@ Metode: Equivalence Partitioning dan Boundary Value Analysis
 | 4  | User ID > 10 digit                        | 12345678901 | QRIS           | Error: User ID maksimal 10 digit!                       | BVA            |
 | 5  | Duplikat User ID                          | 123456789   | QRIS           | Error: User ID sudah ditambahkan sebelumnya!            | Decision Table |
 | 6  | Tambah lebih dari 5 User ID               | >5 data     | QRIS           | Error: Maksimal hanya 5 User ID                         | Robustness     |
-| 7  | User ID valid, tapi jumlah diamond kosong | 123456789   | QRIS           | Error: Belum memasukkan jumlah item                     | Equivalence    |
+| 7  | User ID valid, tapi jumlah diamond kosong | 123456789   | QRIS           | Error: Belum memasukkan jumlah diamonds!                     | Equivalence    |
 | 8  | Tidak memilih metode pembayaran           | 123456789   | (kosong)       | Error: Mohon memilih metode pembayaran terlebih dahulu! | Robustness     |
 | 9  | Generate invoice tanpa email              | 123456789   | QRIS           | Error: Mohon masukkan email pengiriman invoice!         | Robustness     |
-| 10 | Hapus User ID yang tidak ada              | 000000000   | QRIS           | Error: User ID tidak ditemukan!                         | Negative Path  |
