@@ -221,3 +221,7 @@ Semua Skenario Teruji	✅ Ya
 Efisiensi (pakai break)	✅ Optimal
 
 Loop Bersih & Tidak Redundan	✅ Benar
+
+- Registrasi
+
+  
