@@ -223,9 +223,7 @@ Efisiensi (pakai break)	✅ Optimal
 Loop Bersih & Tidak Redundan	✅ Benar
 
 - Registrasi
-
-- Registrasi
-![Loop Testing](screenshot/Struktur_loop_registrasi.png)
+![Loop Testing](screenshot/Struktur_loop_register.png)
 
 Catatan Teknis
 
