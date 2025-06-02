@@ -18,6 +18,9 @@ Fungsi createAdminUser()
 
 - Aman digunakan, meskipun bisa dipertimbangkan untuk menghindari hardcode password.
 
+![Fungsi Admin](screenshot/Admin_Function.png
+)
+
 Fungsi login()
 
 - Mencari user yang cocok berdasarkan email dan password.
