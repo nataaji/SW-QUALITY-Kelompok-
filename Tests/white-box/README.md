@@ -44,6 +44,9 @@ Fungsi register()
 
 - Jika berhasil, menambahkan user baru.
 
+![Fungsi Admin](screenshot/Registrasi_Function.jpg
+)
+
 Catatan:
 
 - Nama dan username diisi sama dengan email.
