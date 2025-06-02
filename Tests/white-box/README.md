@@ -185,10 +185,12 @@ Test Case - Fungsi register()
 
 ### Loop Testing
 
-Struktur Loop Testing
+Struktur Loop Testing yang diuji
 
 - Login
 ![Loop Testing](screenshot/Struktur_loop_login.png)
+
+- Skenario Uji Loop
 
 | No | Kondisi Jumlah Data            | Deskripsi Skenario                      | Diharapkan                                                  |
 | -- | ------------------------------ | --------------------------------------- | ----------------------------------------------------------- |
@@ -198,3 +200,19 @@ Struktur Loop Testing
 | 4  | >1 user (cocok di awal)        | User cocok di indeks 0                  | Loop berhenti di iterasi pertama. Login berhasil.           |
 | 5  | >1 user (cocok di tengah)      | User cocok di tengah (misal index ke-2) | Loop jalan sampai cocok, login berhasil, lalu `break`.      |
 | 6  | >1 user (tidak ada yang cocok) | Semua data salah                        | Loop jalan semua elemen, login gagal.                       |
+
+Hasil Analisis
+- Loop tidak berisiko infinite loop, karena iterasi bersifat deterministik (for-of terhadap array).
+
+- Penggunaan break saat login berhasil membuat eksekusi efisien.
+
+- Semua skenario di atas bisa ditangani oleh fungsi dengan benar.
+
+- Tidak ada loop bersarang atau kompleks
+
+  | Aspek                        | Status    |
+| ---------------------------- | --------- |
+| Infinite Loop Dicegah        | ✅ Ya      |
+| Semua Skenario Teruji        | ✅ Ya      |
+| Efisiensi (pakai `break`)    | ✅ Optimal |
+| Loop Bersih & Tidak Redundan | ✅ Benar   |
