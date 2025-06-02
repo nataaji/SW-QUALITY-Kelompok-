@@ -189,3 +189,12 @@ Struktur Loop Testing
 
 - Login
 ![Loop Testing](screenshot/Struktur_loop_login.png)
+
+| No | Kondisi Jumlah Data            | Deskripsi Skenario                      | Diharapkan                                                  |
+| -- | ------------------------------ | --------------------------------------- | ----------------------------------------------------------- |
+| 1  | 0 user                         | `users = []`                            | Loop tidak dieksekusi sama sekali. Langsung ke login gagal. |
+| 2  | 1 user (cocok)                 | `users = [{email: X, password: Y}]`     | Loop jalan 1x, login berhasil, berhenti dengan `break`.     |
+| 3  | 1 user (tidak cocok)           | Data tidak cocok                        | Loop jalan 1x, login gagal.                                 |
+| 4  | >1 user (cocok di awal)        | User cocok di indeks 0                  | Loop berhenti di iterasi pertama. Login berhasil.           |
+| 5  | >1 user (cocok di tengah)      | User cocok di tengah (misal index ke-2) | Loop jalan sampai cocok, login berhasil, lalu `break`.      |
+| 6  | >1 user (tidak ada yang cocok) | Semua data salah                        | Loop jalan semua elemen, login gagal.                       |
