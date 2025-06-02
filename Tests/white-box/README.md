@@ -18,7 +18,7 @@ Fungsi createAdminUser()
 
 - Aman digunakan, meskipun bisa dipertimbangkan untuk menghindari hardcode password.
 
-![Fungsi Admin](screenshot/Admin_Function.png
+![Fungsi Admin](screenshot/Admin_Function.jpg
 )
 
 Fungsi login()
@@ -26,6 +26,9 @@ Fungsi login()
 - Mencari user yang cocok berdasarkan email dan password.
 
 - Menghapus data login sebelumnya dan menyimpan user yang berhasil login.
+
+![Fungsi Login](screenshot/Login_Function.jpg
+)
 
  Catatan:
 
