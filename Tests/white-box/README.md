@@ -211,8 +211,13 @@ Hasil Analisis
 - Tidak ada loop bersarang atau kompleks
 
 Rangkuman Loop Testing
+
 Aspek	Status
+
 Infinite Loop Dicegah	✅ Ya
+
 Semua Skenario Teruji	✅ Ya
+
 Efisiensi (pakai break)	✅ Optimal
+
 Loop Bersih & Tidak Redundan	✅ Benar
