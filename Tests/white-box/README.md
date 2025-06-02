@@ -188,4 +188,4 @@ Test Case - Fungsi register()
 Struktur Loop Testing
 
 - Login
-![Loop Testing](flowchart/IMG_20250528_165630.png)
+![Loop Testing](screenshot/Struktur_loop_login.png)
