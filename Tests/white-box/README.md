@@ -224,4 +224,48 @@ Loop Bersih & Tidak Redundan	✅ Benar
 
 - Registrasi
 
-  
+- Registrasi
+![Loop Testing](screenshot/Struktur_loop_registrasi.png)
+
+Catatan Teknis
+
+users.some(...) menggunakan loop internal untuk mencari kecocokan:
+
+Berhenti saat menemukan elemen pertama yang cocok.
+
+Jika tidak ditemukan, lanjut hingga akhir array.
+
+Aman dari infinite loop.
+
+- Skenario Uji Loop
+
+| No | Jumlah User                     | Deskripsi Kondisi                   | Diharapkan                                                    |
+| -- | ------------------------------- | ----------------------------------- | ------------------------------------------------------------- |
+| 1  | 0 user                          | Tidak ada data user                 | `some()` return `false`. Proses lanjut ke validasi password.  |
+| 2  | 1 user (cocok)                  | Satu user dan email sudah terdaftar | `some()` return `true`. Muncul alert “Email sudah terdaftar”. |
+| 3  | 1 user (tidak cocok)            | Satu user tapi email beda           | `some()` return `false`. Lanjut ke validasi password.         |
+| 4  | >1 user (cocok di awal)         | Email cocok pada index 0            | `some()` return `true`. Proses berhenti langsung.             |
+| 5  | >1 user (cocok di tengah/akhir) | Email cocok di tengah/akhir         | `some()` scan hingga menemukan, lalu berhenti.                |
+| 6  | >1 user (tidak cocok semua)     | Semua email berbeda dengan input    | `some()` scan seluruh array. Return `false`.                  |
+
+Hasil Analisis
+
+- Fungsi some() berperilaku seperti loop singkat (short-circuiting).
+
+- Tidak berisiko infinite loop.
+
+- Efisien karena berhenti saat kondisi terpenuhi.
+
+- Semua jalur dapat diuji melalui jumlah user dan posisi email.
+
+Rangkuman Loop Testing Fungsi register()
+
+Aspek	Status
+
+Infinite Loop Dicegah	✅ Ya
+
+Semua Skenario Teruji	✅ Ya
+
+Efisiensi	✅ Optimal
+
+Struktur Loop Aman	✅ Ya
