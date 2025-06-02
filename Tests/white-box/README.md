@@ -184,3 +184,8 @@ Test Case - Fungsi register()
 | TC-R4 | Register – localStorage kosong       | Email pertama, password cocok   | users = null                        | Buat array users baru, simpan, alert sukses|
 
 ### Loop Testing
+
+Struktur Loop Testing
+
+- Login
+![Loop Testing](flowchart/IMG_20250528_165630.png)
