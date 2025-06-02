@@ -185,7 +185,7 @@ Test Case - Fungsi register()
 
 ### Loop Testing
 
-1. Struktur Loop Testing yang diuji
+### Struktur Loop Testing yang diuji
 
 - Login
 ![Loop Testing](screenshot/Struktur_loop_login.png)
@@ -222,7 +222,7 @@ Efisiensi (pakai break)	✅ Optimal
 
 Loop Bersih & Tidak Redundan	✅ Benar
 
-2. Struktur Loop Testing yang diuji
+### Struktur Loop Testing yang diuji
 
 - Registrasi
 ![Loop Testing](screenshot/Struktur_loop_Registrasi.png)
