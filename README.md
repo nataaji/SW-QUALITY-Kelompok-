@@ -49,9 +49,11 @@ Skenario Uji White Box
 ### Grey Box Testing
 Dilakukan oleh: [Haekal Abdullah Ali Akbar Fajar Ramadhan]  
 Metode:
-- Gabungkan pengujian UI + logika kode
-- Cek interaksi ID Game & metode pembayaran (cart.html)
-- Validasi hasil DOM manipulation
+
+- Tambah dan manipulasi User ID / Player ID
+- Pilih dan ubah metode pembayaran
+- Validasi hasil pada manipulasi DOM di halaman cart
+- Interaksi terhadap localStorage untuk cart, games, dan paymentCategories
 
 ## Cara Menjalankan
 Buka `index.html` di browser
