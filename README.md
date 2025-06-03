@@ -58,6 +58,12 @@ Metode:
 ## Cara Menjalankan
 Buka `index.html` di browser
 
+## 📊 GitHub Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=adityyy&show_icons=true&theme=tokyonight)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=adityyy&layout=compact&theme=tokyonight)
+
 ## Tampilan Aplikasi
 
 ### Halaman Dashboard
