@@ -1,13 +1,5 @@
-# Sekenaario Pengujian Black Box
+# WHITE-BOX TESTING
+## Skenario Uji Black Box
 
-                  Black Box Testing
-                          │
-        ┌─────────────────┼──────────────────┐
-        │                                    │
-     BVA                                Equivalence
-        │                                    │
-  ┌─────┴─────┐                          ┌───┴────┐
-  │ Valid BVA │                          │ Valid  │
-  │ Invalid BVA│                         │ Invalid │
-
-
+![Alur Testing](Workflow/BLACK.png
+)
