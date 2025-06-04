@@ -9,7 +9,7 @@
 
 1. Pengujian Interaksi ID Game (Player ID)
 
-| No | Skenario Pengujian     | Aksi                                      | Validasi UI                                                    | Validasi Logika                                           |
+| No | Tase Case              | Aksi                                      | Validasi UI                                                    | Validasi Logika                                           |
 | -- | ---------------------- | ----------------------------------------- | -------------------------------------------------------------- | --------------------------------------------------------- |
 | 1  | Input User ID kosong   | Klik tombol "Tambah" tanpa isi `#user_id` | Muncul alert SweetAlert "Silakan isi User ID terlebih dahulu!" | Tidak terjadi perubahan pada `localStorage.cart.playerId` |
 | 2  | Input < 9 digit        | Isi `#user_id` = `123456` → klik "Tambah" | Alert: "User ID minimal 9 digit!"                              | Tidak tambah ke array `playerId`                          |
@@ -19,7 +19,7 @@
 
 2. Pengujian Interaksi Metode Pembayaran
    
-| No | Skenario Pengujian            | Aksi                                      | Validasi UI                                               | Validasi Logika                                              |
+| No |  Tase Case                    | Aksi                                      | Validasi UI                                               | Validasi Logika                                              |
 | -- | ----------------------------- | ----------------------------------------- | --------------------------------------------------------- | ------------------------------------------------------------ |
 | 6  | Klik metode Gopay             | Panggil `updateMetode(2)`                 | `detail-pembayaran` menampilkan "Gopay" dan biaya Rp2.500 | `localStorage.cart.payment = 'Gopay'`, `paymentHarga = 2500` |
 | 7  | Klik metode QRIS              | Panggil `updateMetode(1)`                 | Teks berubah ke "Qris" dan harga sesuai                   | Properti `payment` dan `paymentHarga` pada `cart` terupdate  |
@@ -36,7 +36,7 @@
 
 4. Validasi Akhir Saat Generate Invoice
     
-| No | Skenario                    | Validasi                                                              |
+| No |  Tase Case                  | Validasi                                                              |
 | -- | --------------------------- | --------------------------------------------------------------------- |
 | 13 | Tidak isi email             | Klik "Beli Sekarang" → alert muncul                                   |
 | 14 | Ada playerId tapi jmlDm = 0 | Alert muncul: "User X belum memasukkan jumlah diamond!"               |
