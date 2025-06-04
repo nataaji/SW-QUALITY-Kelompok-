@@ -4,7 +4,7 @@ Metode: Equivalence Partitioning dan Boundary Value Analysis
 
 # LOGIN TEST CASE
 
-| No | Test Case                    | Input Email                                 | Input Password | Expected Output             | Model           |
+| No | Test Case                    | Input Email                                 | Input Password | Hasil Output             | Model           |
 | -- | ---------------------------- | ------------------------------------------- | -------------- | --------------------------- | --------------- |
 | 1  | Valid login                  | [user@example.com](mailto:user@example.com) | password123    | Login berhasil              | Equivalence     |
 | 2  | Kosongkan email              | *(kosong)*                                  | password123    | Error: Email wajib diisi    | Boundary Value Analysis  |
@@ -14,7 +14,7 @@ Metode: Equivalence Partitioning dan Boundary Value Analysis
 | 6  | Password salah               | [user@example.com](mailto:user@example.com) | wrongpass      | Error: Login gagal          | Equivalence     |
 
 # REGISTER TEST CASE
-| No | Test Case                    | Email                                 | Password   | Konfirmasi | Expected Output                  | Model       |
+| No | Test Case                    | Email                                 | Password   | Konfirmasi | Hasil Output                  | Model       |
 | -- | ---------------------------- | ------------------------------------- | ---------- | ---------- | -------------------------------- | ----------- |
 | 1  | Input valid semua            | [user@test.com](mailto:user@test.com) | Test123!   | Test123!   | Register sukses                  | Equivalence |
 | 2  | Email kosong                 | *(kosong)*                            | Test123!   | Test123!   | Error: Email wajib diisi         | Boundary Value Analysis  |
@@ -23,7 +23,7 @@ Metode: Equivalence Partitioning dan Boundary Value Analysis
 | 5  | Format email tidak valid     | user.com                              | Pass123    | Pass123    | Error: Format salah              | Equivalence |
 
 # CART PAGE ( USER ID & PEMBAYARAN) TEST CASE
-| No | Test Case                                 | User ID     | Payment Method | Expected Output                                         | Model          |
+| No | Test Case                                 | User ID     | Payment Method | Hasil Output                                         | Model          |
 | -- | ----------------------------------------- | ----------- | -------------- | ------------------------------------------------------- | -------------- |
 | 1  | Tambah 1 User ID valid                    | 123456789   | QRIS           | Berhasil menambahkan 1 user                             | Equivalence    |
 | 2  | User ID kosong                            | (kosong)    | QRIS           | Error: Silakan isi User ID terlebih dahulu!             | Boundary Value Analysis     |
