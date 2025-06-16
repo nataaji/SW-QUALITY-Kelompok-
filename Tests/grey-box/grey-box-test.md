@@ -5,7 +5,7 @@
 - Tambah dan manipulasi User ID / Player ID
 - Pilih dan ubah metode pembayaran
 - Validasi hasil pada manipulasi DOM di halaman cart
-- Interaksi terhadap localStorage untuk cart, games, dan paymentCategories
+- Interaksi terhadap localStorage untuk cart, games, dan paymentCategories 
 
 1. Pengujian Interaksi ID Game (Player ID)
 
